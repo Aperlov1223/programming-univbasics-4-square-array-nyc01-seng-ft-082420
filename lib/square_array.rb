@@ -2,7 +2,7 @@ def square_array(array)
   count = 0
   new_array = []
 while count < array.length do |index|
-  new_array.push array |index| ** 2
+  new_array.push array |index| i ** 2
   count +=1
 end
 new_array
